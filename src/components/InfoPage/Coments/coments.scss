@@ -1,0 +1,31 @@
+.coment-wrapper {
+  min-height: 50px;
+  margin: 0 52% 40px 27%;
+
+
+  .coment-header {
+    display: flex;
+
+    .coment-date {
+      margin-bottom: 10px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      padding-top: 12px;
+    }
+
+    .coment-delete-button {
+      width: 20px;
+      height: 16px;
+      background-color: #930000;
+      color: white;
+      cursor: pointer;
+      margin: auto;
+    }
+  }
+
+
+  .coment-description {
+
+  }
+}

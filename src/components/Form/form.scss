@@ -1,0 +1,56 @@
+.modal-container {
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+
+  .upsert-modal {
+    width: 40%;
+    border: 2px solid #C7753D;
+    border-radius: 10px;
+  }
+
+  .upsert-modal__header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #C7753D;
+    padding: 5px 20px;
+
+    .form-button-submit {
+      width: 40px;
+      height: 30px;
+      border-radius: 10px;
+      background-color: darkgreen;
+      color: white;
+      cursor: pointer;
+      padding-top: 7px;
+    }
+
+    .form-button-cancel {
+      width: 50px;
+      height: 30px;
+      border-radius: 10px;
+      background-color: #6f0000;
+      color: white;
+      cursor: pointer;
+      padding-top: 7px;
+    }
+  }
+
+  .upsert-modal__body {
+    padding: 20px;
+
+    .errorField {
+      border: 1px solid red;
+      color: red;
+    }
+
+    .input {
+      width: 100%;
+      margin-bottom: 20px;
+      border-color: #6F9EAF;
+    }
+  }
+}
+
+
+
